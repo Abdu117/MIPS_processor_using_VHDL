@@ -10,7 +10,7 @@ use IEEE.NUMERIC_STD.ALL;
 entity alu is
  Port ( inp_a : in STD_LOGIC_VECTOR(15 downto 0);
  inp_b : in STD_LOGIC_VECTOR(15 downto 0);
- alu_control : in STD_LOGIC_VECTOR (2 downto 0);
+ alu_control : in STD_LOGIC_VECTOR (2 downto 0); 
  alu_result : out STD_LOGIC_VECTOR(15 downto 0);
   zero_flag,sign_flag : out std_logic);
 end alu;
